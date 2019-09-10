@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-from ..cpp_layer import nms_cpu, nms_cuda
+from ..nms import nms_cpu, nms_cuda
 #from .soft_nms_cpu import soft_nms_cpu
 
 

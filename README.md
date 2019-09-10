@@ -1,5 +1,9 @@
 # FRCNN-on-ResNet-50-detection
 Faster-RCNN on ResNet-50 detection model
+* To build prerequisites, run:
+```
+python3 setup.py develop
+```
 * Run <tt>inference.py</tt> script to test **FRCNN on ResNet-50** detection model:
 ```
 python3 inference.py
